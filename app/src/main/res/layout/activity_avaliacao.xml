@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <TextView
+                android:text="Tipo :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"/>
+        <TextView android:id="@+id/etTipo"
+                  android:inputType="textShortMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="1dp"/>
+
+        <TextView
+                android:text="Data de realização:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"/>
+        <TextView android:id="@+id/etData"
+                  android:inputType="textShortMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="1dp"/>
+
+        <TextView
+                android:text="Unidade Curricular:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"/>
+        <TextView android:id="@+id/etUc"
+                  android:inputType="textShortMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="1dp"/>
+
+        <TextView
+                android:text="Observação:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"/>
+        <TextView android:id="@+id/etObs"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="1dp"/>
+
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

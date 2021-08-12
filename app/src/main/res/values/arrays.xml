@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposArray">
+        <item>FREQUENCIA</item>
+        <item>EXAME</item>
+        <item>PROJETO</item>
+        <item>TRABALHO</item>
+    </string-array>
+</resources>
